@@ -15,7 +15,7 @@ public class WebConfig{
         CorsConfiguration config=new CorsConfiguration();
 
         config.setAllowCredentials(true);
-		config.addAllowedOrigin("http://localhost:4200");
+		config.addAllowedOrigin("https://glittery-strudel-69e8b1.netlify.app");
 		config.addAllowedHeader("*");
 		config.addAllowedMethod("OPTIONS");
 		config.addAllowedMethod("POST");
